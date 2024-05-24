@@ -1,0 +1,33 @@
+div.quantity-div{
+    display: flex;
+
+}
+
+
+
+button.left-button{
+    width:3rem;
+    aspect-ratio: 1;
+    background-color: #FDC913;
+    border-top-left-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+}
+
+button.right-button{
+    aspect-ratio: 1;
+    width:3rem;
+    background-color: #FDC913;
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+}
+
+div.current-quantity{
+    width:3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top:1px solid;
+    border-bottom:1px solid;
+    border-color: #acacac;
+    
+}

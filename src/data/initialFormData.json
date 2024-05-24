@@ -1,0 +1,10 @@
+{
+    "size":"",
+    "doughTickness":"Hamur Kalınlığı",
+    "purchaseNote":"",
+    "clientName": "",
+    "toppings": [],
+    "quantity": 1,
+    "toppingCost":0,
+    "totalCost" : 85.5
+  }

@@ -1,0 +1,43 @@
+div {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+div.pizza-name {
+    display:flex;
+    padding: 0;
+    margin:20px 0;
+}
+
+div h2 {
+    font-size: 20px;
+    padding: 0;
+    margin:0;
+}
+
+div.price-rate-vote{
+    margin:10px 0;
+    color:#5F5F5F;
+}
+
+div.price {
+    text-align: left;
+    padding: 0;
+    
+}
+
+div.price p{
+    font-weight: 700;
+    font-size: 1.4rem;
+    color:#292929;
+}
+
+
+div p.description{
+    text-align: left;
+    font-size: 0.95rem;
+    line-height: 1.5rem;
+    color:#5F5F5F;
+    margin:30px 0 20px 0;
+}

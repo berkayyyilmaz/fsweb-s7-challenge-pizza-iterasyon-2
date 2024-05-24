@@ -1,0 +1,18 @@
+*{font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;}
+
+div.full-height{
+    padding:0;
+    max-width: 100%;
+}
+
+div.content{
+    padding:0 4rem 0 0;
+    
+}
+
+div.left-blank {
+    padding:0;
+}
+

@@ -1,0 +1,80 @@
+/* Genel stil */
+#root {
+    
+    margin: 0 auto; /* Ortalamak için */
+    padding: 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #CE2829;
+    width: 100%; /* Tam genişlik */
+    padding: 0;
+    display: flex;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    text-wrap: nowrap;
+    align-items: center;
+    margin: 0 0 15px 0;
+    width: 33%; /* %33 genişlik */
+}
+
+nav ul li {
+    margin-right: 0;
+    font-size: 12px; /* Elemanları eşit genişlikte yapar */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+}
+
+/* Özel CSS sınıfı */
+nav ul li .menu-link.active,
+nav ul li .menu-link:hover {
+    font-weight: normal; /* Menü butonu için stilin kaldırılması */
+}
+
+h1.header {
+    background-color: #CE2829;
+    color: white;
+    margin: 0;
+    padding: 50px 0 30px 0;
+    font-size: 50px;
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+div.container-fluid{
+    max-width: 100%;
+    padding:0;
+    margin:0;
+    
+}
+
+span.seperator {
+    padding:0 0.5rem;
+    color: white;
+}
+
+div.nav-blank{
+    background-color: #CE2829;
+    margin:0;
+    padding:0;
+}
+
+div.navigation {
+    padding:0;
+}

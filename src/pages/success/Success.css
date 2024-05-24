@@ -1,0 +1,25 @@
+div.success-page{
+    background-color: #CE2829;
+    color: white;
+    height:100%;
+}
+
+#success-title{
+    margin: 0;
+    padding: 50px 0 30px 0;
+    font-size: 50px;
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+div.message{
+    margin:20vh;
+}
+
+h2.message{
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+}
