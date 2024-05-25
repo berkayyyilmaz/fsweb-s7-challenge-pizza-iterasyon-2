@@ -68,6 +68,9 @@ const handleSubmit = (e) =>{
     if (data.clientName.length<3) {
       errors.push("İsim en az 3 harfli olmalıdır.");
     }
+    if (data.toppings.length>10) {
+      errors.push("En fazla 10 malzeme seçebilirsin.");
+    }
     return errors;
   }
 
